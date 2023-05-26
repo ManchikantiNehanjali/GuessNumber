@@ -1,0 +1,86 @@
+/* c.css */
+
+body {
+    font-size: 1.2em;
+    background:url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(122, 250, 237);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .panel {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #9283e8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #381dd2;
+  }
+  
+  #newGameButton {
+    background-color: #f44336;
+  }
+  
+  #newGameButton:hover {
+    background-color: #d32f2f;
+  }
+  
+  #inputBox {
+    font-size: 16px;
+    padding: 5px 10px;
+    width: 100px;
+    margin-top: 10px;
+  }
+  
+  #attempts {
+    font-weight: bold;
+  }
+  
+  #guessLog {
+    font-size: 14px;
+  }
+  .activeButton{
+    background: #381dd2;
+  }
+  
